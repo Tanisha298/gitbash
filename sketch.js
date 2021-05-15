@@ -15,6 +15,7 @@ function setup(){
     engine = Engine.create();
     world = engine.world;
 
+    tanisha=new Box(40,60,500,70)
 
     ground = new Ground(600,height,1200,20);
     platform = new Ground(150, 305, 300, 170);
@@ -58,7 +59,7 @@ function draw(){
     box5.display();
     log4.display();
     log5.display();
-
+    tanisha.display();
     bird.display();
     platform.display();
 }
